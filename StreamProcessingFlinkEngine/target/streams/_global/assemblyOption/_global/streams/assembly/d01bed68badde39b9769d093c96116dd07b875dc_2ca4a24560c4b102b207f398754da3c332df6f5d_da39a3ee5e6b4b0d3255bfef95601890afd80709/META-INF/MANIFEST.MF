@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: core
+Specification-Version: 3.3.16
+Specification-Vendor: com.softwaremill.sttp.client3
+Implementation-Title: core
+Implementation-Version: 3.3.16
+Implementation-Vendor: com.softwaremill.sttp.client3
+Implementation-Vendor-Id: com.softwaremill.sttp.client3
+Implementation-URL: http://softwaremill.com/open-source
+

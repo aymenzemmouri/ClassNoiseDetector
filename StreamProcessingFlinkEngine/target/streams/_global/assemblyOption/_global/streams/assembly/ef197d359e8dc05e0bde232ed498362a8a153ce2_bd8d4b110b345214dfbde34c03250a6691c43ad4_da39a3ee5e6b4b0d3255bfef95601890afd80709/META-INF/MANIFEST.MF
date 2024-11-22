@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sbt-assembly
+Implementation-Version: 1.1.0
+Specification-Vendor: com.eed3si9n
+Specification-Title: sbt-assembly
+Implementation-Vendor-Id: com.eed3si9n
+Specification-Version: 1.1.0
+Implementation-URL: https://github.com/sbt/sbt-assembly
+Implementation-Vendor: com.eed3si9n
+

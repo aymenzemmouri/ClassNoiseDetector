@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: annotation
+Implementation-Version: 0.5.4
+Specification-Vendor: org.typelevel
+Specification-Title: annotation
+Implementation-Vendor-Id: org.typelevel
+Specification-Version: 0.5.4
+Implementation-URL: https://github.com/typelevel/simulacrum-scalafix
+Implementation-Vendor: org.typelevel
+

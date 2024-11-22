@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: Maven Plugin API
+Implementation-Version: 3.3.9
+Implementation-Vendor-Id: org.apache.maven
+Built-By: jvanzyl
+Build-Jdk: 1.7.0_67
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Maven Plugin API
+Created-By: Apache Maven 3.3.8
+Specification-Version: 3.3.9
+Archiver-Version: Plexus Archiver
+

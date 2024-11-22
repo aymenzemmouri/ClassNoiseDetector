@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.google.common
+Build-Jdk-Spec: 11
+Bundle-Description: Guava is a suite of core and expanded libraries th
+ at include    utility classes, Google's collections, I/O classes, and
+     much more.
+Bundle-DocURL: https://github.com/google/guava/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Guava: Google Core Libraries for Java
+Bundle-SymbolicName: com.google.guava
+Bundle-Version: 32.1.2.jre
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: com.google.common.annotations;version="32.1.2",com.goo
+ gle.common.base;version="32.1.2";uses:="javax.annotation",com.google.
+ common.cache;version="32.1.2";uses:="com.google.common.base,com.googl
+ e.common.collect,com.google.common.util.concurrent,javax.annotation",
+ com.google.common.collect;version="32.1.2";uses:="com.google.common.b
+ ase,javax.annotation",com.google.common.escape;version="32.1.2";uses:
+ ="com.google.common.base,javax.annotation",com.google.common.eventbus
+ ;version="32.1.2",com.google.common.graph;version="32.1.2";uses:="com
+ .google.common.collect,javax.annotation",com.google.common.hash;versi
+ on="32.1.2";uses:="com.google.common.base,javax.annotation",com.googl
+ e.common.html;version="32.1.2";uses:="com.google.common.escape",com.g
+ oogle.common.io;version="32.1.2";uses:="com.google.common.base,com.go
+ ogle.common.collect,com.google.common.graph,com.google.common.hash,ja
+ vax.annotation",com.google.common.math;version="32.1.2";uses:="javax.
+ annotation",com.google.common.net;version="32.1.2";uses:="com.google.
+ common.base,com.google.common.collect,com.google.common.escape,javax.
+ annotation",com.google.common.primitives;version="32.1.2";uses:="com.
+ google.common.base,javax.annotation",com.google.common.reflect;versio
+ n="32.1.2";uses:="com.google.common.collect,com.google.common.io,java
+ x.annotation",com.google.common.util.concurrent;version="32.1.2";uses
+ :="com.google.common.base,com.google.common.collect,com.google.common
+ .util.concurrent.internal,javax.annotation",com.google.common.xml;ver
+ sion="32.1.2";uses:="com.google.common.escape"
+Import-Package: com.google.common.util.concurrent.internal;version="[1
+ .0,2)",javax.annotation;resolution:=optional;version="[3.0,4)",javax.
+ crypto;resolution:=optional,javax.crypto.spec;resolution:=optional,su
+ n.misc;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+

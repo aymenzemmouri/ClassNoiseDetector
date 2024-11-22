@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Flink : Table : API bridge base
+Implementation-Version: 1.19.0
+Archiver-Version: Plexus Archiver
+Built-By: ecs-user
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Flink : Table : API bridge base
+Implementation-Vendor-Id: org.apache.flink
+Created-By: Apache Maven 3.8.6
+Build-Jdk: 1.8.0_402-402
+Specification-Version: 1.19.0
+Implementation-Vendor: The Apache Software Foundation
+

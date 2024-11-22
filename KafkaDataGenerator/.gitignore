@@ -1,0 +1,98 @@
+data/*
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code project files
+.vscode/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+target/
+lib_managed/
+src_managed/
+.cache/
+.history/
+*.log
+
+# sbt specific files
+target/
+project/boot/
+project/plugins/project/
+project/target/
+
+# Mac OS X
+.DS_Store
+
+# Thumbnails
+._*
+
+# Icon must end with two \r
+Icon
+
+# Trashes
+.Trashes
+
+# Vagrant
+.vagrant/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Android Studio
+.gradle/
+.idea/
+build/
+local.properties
+*.iml
+*.hprof
+*.orig
+*.log
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Scala
+*.class
+*.log
+.cache
+.scala_dependencies
+dist/*
+lib_managed/
+src_managed/
+target/
+dist/
+.metals/
+.bloop/
+.bsp/
+
+# sbt directories
+lib_managed/
+src_managed/
+.ensime_cache/
+.metals/
+.cache/
+.history/
+# Boot directory's cache
+project/project/
+project/target/
+
+# Logs
+logs
+*.log

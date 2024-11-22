@@ -1,0 +1,10 @@
+{
+  "module-1" : {
+    "totalSpeakingDuration" : 1737.0,
+    "totalSpeakingCount" : 10.0
+  },
+  "module-2" : {
+    "totalSpeakingDuration" : 73.0,
+    "totalSpeakingCount" : 10.0
+  }
+}

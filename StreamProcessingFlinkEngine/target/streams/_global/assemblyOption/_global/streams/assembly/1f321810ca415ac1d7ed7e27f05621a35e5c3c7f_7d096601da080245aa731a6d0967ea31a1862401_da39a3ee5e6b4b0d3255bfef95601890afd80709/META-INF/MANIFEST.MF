@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: core
+Specification-Version: 1.2.7
+Specification-Vendor: com.softwaremill.sttp.shared
+Implementation-Title: core
+Implementation-Version: 1.2.7
+Implementation-Vendor: com.softwaremill.sttp.shared
+Implementation-Vendor-Id: com.softwaremill.sttp.shared
+Implementation-URL: http://softwaremill.com/open-source
+

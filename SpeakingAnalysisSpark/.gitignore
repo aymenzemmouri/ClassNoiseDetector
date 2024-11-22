@@ -1,0 +1,53 @@
+# sbt binary
+.sbt/
+
+# sbt project definition
+/project/target/
+project/target/
+/project/project/
+
+# MacOS specific
+.DS_Store
+
+# SBT specific
+target/
+lib_managed/
+src_managed/
+.derivation/
+
+# Scala-IDE specific
+.cache-main
+.scala_dependencies
+
+# Eclipse specific
+.metadata
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+.eclipse/
+.factorypath
+.recommenders
+
+# IntelliJ specific
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code specific
+.vscode/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Generated files
+*.class

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Cats kernel
+Implementation-Version: 2.6.1
+Specification-Vendor: org.typelevel
+Specification-Title: Cats kernel
+Implementation-Vendor-Id: org.typelevel
+Specification-Version: 2.6.1
+Implementation-URL: https://github.com/typelevel/cats
+Implementation-Vendor: org.typelevel
+

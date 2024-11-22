@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Flink : Connectors : Kafka
+Implementation-Version: 3.1.0-1.18
+Archiver-Version: Plexus Archiver
+Built-By: mvisser
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Flink : Connectors : Kafka
+Implementation-Vendor-Id: org.apache.flink
+Created-By: Apache Maven 3.8.6
+Build-Jdk: 1.8.0_402
+Specification-Version: 3.1.0-1.18
+Implementation-Vendor: The Apache Software Foundation
+

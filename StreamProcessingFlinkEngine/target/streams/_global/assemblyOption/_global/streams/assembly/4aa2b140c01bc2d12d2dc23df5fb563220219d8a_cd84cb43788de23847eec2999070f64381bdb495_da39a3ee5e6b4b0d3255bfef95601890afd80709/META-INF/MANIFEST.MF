@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.sisu.plexus,org.codehaus.plexus,org.codeha
+ us.plexus.component,org.codehaus.plexus.component.composition,org.cod
+ ehaus.plexus.component.configurator,org.codehaus.plexus.component.con
+ figurator.converters,org.codehaus.plexus.component.configurator.conve
+ rters.basic,org.codehaus.plexus.component.configurator.converters.com
+ posite,org.codehaus.plexus.component.configurator.converters.lookup,o
+ rg.codehaus.plexus.component.configurator.converters.special,org.code
+ haus.plexus.component.configurator.expression,org.codehaus.plexus.com
+ ponent.factory,org.codehaus.plexus.component.repository,org.codehaus.
+ plexus.component.repository.exception,org.codehaus.plexus.configurati
+ on,org.codehaus.plexus.configuration.xml,org.codehaus.plexus.context,
+ org.codehaus.plexus.logging,org.codehaus.plexus.logging.console,org.c
+ odehaus.plexus.personality.plexus.lifecycle.phase
+Built-By: mcculls
+Bundle-Name: Sisu-Plexus (Incubation)
+Created-By: Apache Maven 3.0.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Copyright: Copyright (c) 2010, 2015 Sonatype, Inc. and others
+Eclipse-SourceReferences: scm:git:http://git.eclipse.org/gitroot/sisu/
+ org.eclipse.sisu.plexus.git;path="org.eclipse.sisu.plexus";commitId=3
+ d2ec731f47e4dd620552522a9648dfd548b2acf
+Bundle-Vendor: Eclipse Sisu
+Build-Jdk: 1.7.0_80
+Bundle-Version: 0.3.2
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-DocURL: http://www.eclipse.org/sisu/
+Bundle-SymbolicName: org.eclipse.sisu.plexus;singleton:=true
+Import-Package: javax.inject,org.eclipse.sisu,org.eclipse.sisu.bean,or
+ g.eclipse.sisu.inject,org.eclipse.sisu.launch,org.eclipse.sisu.space,
+ org.eclipse.sisu.wire,com.google.inject;version="1.4",com.google.inje
+ ct.binder;version="1.4",com.google.inject.matcher;version="1.4",com.g
+ oogle.inject.name;version="1.4",com.google.inject.spi;version="1.4",c
+ om.google.inject.util;version="1.4",org.osgi.framework;version="1.5",
+ org.codehaus.classworlds,org.codehaus.plexus.classworlds,org.codehaus
+ .plexus.classworlds.realm,org.codehaus.plexus.util,org.codehaus.plexu
+ s.util.xml,org.codehaus.plexus.util.xml.pull,org.codehaus.plexus.comp
+ onent.annotations;resolution:=optional,org.slf4j;resolution:=optional
+ ,junit.framework;resolution:=optional
+Archiver-Version: Plexus Archiver
+

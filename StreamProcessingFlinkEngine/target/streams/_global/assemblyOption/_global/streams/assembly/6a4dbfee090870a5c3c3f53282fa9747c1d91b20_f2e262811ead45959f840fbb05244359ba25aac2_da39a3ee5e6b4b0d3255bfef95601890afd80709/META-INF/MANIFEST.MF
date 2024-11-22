@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: ujson
+Licenses: MIT (MIT License)
+Implementation-Version: 3.1.0
+Implementation-Vendor-Id: com.lihaoyi
+Description: ujson
+Scala-Version: 2.12.17
+Implementation-URL: https://github.com/lihaoyi/upickle
+URL: https://github.com/lihaoyi/upickle
+Created-By: Mill 0.10.11
+Tool: Mill-0.10.11
+Implementation-Vendor: com.lihaoyi
+

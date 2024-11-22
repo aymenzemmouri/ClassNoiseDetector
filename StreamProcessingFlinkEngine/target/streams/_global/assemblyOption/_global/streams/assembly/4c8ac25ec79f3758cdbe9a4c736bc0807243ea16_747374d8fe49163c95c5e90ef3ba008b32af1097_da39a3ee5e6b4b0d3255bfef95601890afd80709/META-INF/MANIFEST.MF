@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: core
+Specification-Version: 1.4.16
+Specification-Vendor: com.softwaremill.sttp.model
+Implementation-Title: core
+Implementation-Version: 1.4.16
+Implementation-Vendor: com.softwaremill.sttp.model
+Implementation-Vendor-Id: com.softwaremill.sttp.model
+Implementation-URL: http://softwaremill.com/open-source
+

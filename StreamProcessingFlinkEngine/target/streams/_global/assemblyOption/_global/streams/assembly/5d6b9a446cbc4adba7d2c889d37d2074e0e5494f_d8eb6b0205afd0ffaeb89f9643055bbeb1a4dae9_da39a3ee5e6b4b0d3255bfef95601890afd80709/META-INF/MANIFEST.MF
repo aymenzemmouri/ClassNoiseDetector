@@ -1,0 +1,531 @@
+Manifest-Version: 1.0
+Bundle-Description: Janino is a super-small, super-fast Java compiler.
+Automatic-Module-Name: org.codehaus.commons.compiler
+Bundle-License: https://spdx.org/licenses/BSD-3-Clause.html
+Bundle-SymbolicName: org.codehaus.janino.commons-compiler;singleton:=t
+ rue
+Built-By: UNKRIG.ARNO
+Bnd-LastModified: 1688467140862
+Bundle-ManifestVersion: 2
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.4.1.201501161923
+Export-Package: org.codehaus.commons.compiler;uses:="org.codehaus.comm
+ ons.compiler.util.resource";version="3.1.10",org.codehaus.commons.com
+ piler.io;uses:="org.codehaus.commons.compiler.util";version="3.1.10",
+ org.codehaus.commons.compiler.java8.java.util;version="3.1.10",org.co
+ dehaus.commons.compiler.java8.java.util.function;version="3.1.10",org
+ .codehaus.commons.compiler.java8.java.util.stream;uses:="org.codehaus
+ .commons.compiler.java8.java.util.function";version="3.1.10",org.code
+ haus.commons.compiler.java9.java.lang.module;uses:="org.codehaus.comm
+ ons.compiler.java8.java.util,org.codehaus.commons.compiler.java8.java
+ .util.stream";version="3.1.10",org.codehaus.commons.compiler.lang;use
+ s:="org.codehaus.commons.compiler.util.resource";version="3.1.10",org
+ .codehaus.commons.compiler.samples;version="3.1.10",org.codehaus.comm
+ ons.compiler.util;uses:="org.codehaus.commons.compiler.util.resource"
+ ;version="3.1.10",org.codehaus.commons.compiler.util.iterator;uses:="
+ org.codehaus.commons.compiler.util";version="3.1.10",org.codehaus.com
+ mons.compiler.util.reflect;version="3.1.10",org.codehaus.commons.comp
+ iler.util.resource;version="3.1.10"
+Bundle-Name: commons-compiler
+Bundle-Version: 3.1.10
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_292
+
+Name: org/codehaus/commons/compiler/java8/java/util/function/Consumer.
+ class
+SHA-256-Digest: yyveVEyFFznSQYhk/ThAMZf9h4hrGi3QTjlXLTNPgwI=
+
+Name: org/codehaus/commons/compiler/ICookable.class
+SHA-256-Digest: 32vG7aPguRuIQEuUnKrVgxcWYJj6wxa0yRg8O+MeMrA=
+
+Name: org/codehaus/commons/compiler/util/iterator/Iterables$State.clas
+ s
+SHA-256-Digest: cq2iXwXXF4h0cGl42a/DtDKq1OFc7Hl4lSzLWq+lH90=
+
+Name: org/codehaus/commons/compiler/AbstractCompiler$1$1.class
+SHA-256-Digest: xrHfj5bARhpPoD0q2QUrpFqTs5rvD72CK2VotZPK3IQ=
+
+Name: org/codehaus/commons/compiler/util/iterator/DirectoryIterator$Di
+ rectoryNotListableException.class
+SHA-256-Digest: o3MW3m1RDe9svXBxY5wsClrkkL/QI18PQtthruwj+00=
+
+Name: org/codehaus/commons/compiler/util/iterator/Iterables$1.class
+SHA-256-Digest: YAoA66/dL8EhLEa7M1/gxpwrkc2WchAnLhtlaPtpR3o=
+
+Name: org/codehaus/commons/compiler/Sandbox.class
+SHA-256-Digest: bj5MfHYo0DqjR5Tfu741WOVTcN60Rlq5hdhFxUb3ff8=
+
+Name: org/codehaus/commons/compiler/AbstractCompiler.class
+SHA-256-Digest: M1QKgmhC1vgNtji/5HCVg5sse+QdtA6c6V/c3Un4Jqg=
+
+Name: org/codehaus/commons/compiler/CompileException.class
+SHA-256-Digest: dpA+Sj/QxfZpRmStLDLCIsHq1Je5rB4cSnutV2mQw+8=
+
+Name: org/codehaus/commons/compiler/lang/ClassLoaders$SubresourceGette
+ r.class
+SHA-256-Digest: iNXvfqtD3mfF2+59DU3uaSg7W2xuTDzOAmJHCAOkPJ4=
+
+Name: org/codehaus/commons/compiler/WarningHandler.class
+SHA-256-Digest: rDVR14xpQAHay8WzNTB321+YqS9E629zUyrUdjGQ5co=
+
+Name: org/codehaus/commons/compiler/util/resource/JarDirectoriesResour
+ ceFinder$1$2.class
+SHA-256-Digest: PgiGznfdxytBBo3ga42kecsRQ+BAI2tJCYY56zn0rT8=
+
+Name: org/codehaus/commons/compiler/CompilerFactoryFactory.class
+SHA-256-Digest: D9QoraoViddLO3TIVwYToVfKraPkJ+U70HXi1AcRPIk=
+
+Name: org/codehaus/commons/compiler/util/iterator/Iterables$4.class
+SHA-256-Digest: woZ1c7xzA1aJVLI23mm+7KY5mDxtuKDtCc/zesnGISE=
+
+Name: org/codehaus/commons/compiler/util/Disassembler.class
+SHA-256-Digest: 9TxvnVen5rO1/vTcoZryTtPiMGflek6o5ZbAHKWsWvk=
+
+Name: org/codehaus/commons/compiler/Cookable.class
+SHA-256-Digest: /FeqwL9YxgHARtOwjvNblFcDvOi9bTOTJaNBFN8lQJI=
+
+Name: org/codehaus/commons/compiler/util/resource/JarDirectoriesResour
+ ceFinder$1.class
+SHA-256-Digest: WN+9P1FJbEF9SXpQg4YGryRaVZHeSWN0uRY6eqjbRPc=
+
+Name: org/codehaus/commons/compiler/util/iterator/UniterableElementExc
+ eption.class
+SHA-256-Digest: q2MReObp0oubyls2AJSVd7qcUl/wRzmAGo7iYrFRS1c=
+
+Name: org/codehaus/commons/compiler/util/iterator/EnumerationIterator.
+ class
+SHA-256-Digest: B/7Q3VzTw95Ukwfule67dE37oimkdShdOTvdYKnr7A0=
+
+Name: org/codehaus/commons/compiler/util/reflect/Methods.class
+SHA-256-Digest: ARHoSYVSGK9UM/7dgdyF8Y+CQ0yUpoxercIEJZA6IjI=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceCreator.clas
+ s
+SHA-256-Digest: O7ri6asEJZu8kR6JldDpfSUDLjsKTpAg8nnHX0PTbw8=
+
+Name: org/codehaus/commons/compiler/util/StringUtil.class
+SHA-256-Digest: MPDo9vr0jGPu/nuD1BiTevh6pz/0J/xaVJM/jr4TbS4=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceFinders$3.cl
+ ass
+SHA-256-Digest: +xww1xKTyQZlPBfwI8SSPL7L7nVOQGY6xBcSHieO9Ac=
+
+Name: org/codehaus/commons/compiler/IScriptEvaluator.class
+SHA-256-Digest: zCgCKnDyQZsIbd7quCwMTy7ZA7bZ1bWuNlOKCoZ9RsY=
+
+Name: org/codehaus/commons/compiler/ICompiler$1.class
+SHA-256-Digest: YCthe3kcjFI/47fq+D6x1jmPMHyh8qLrY3Fzyx8rW6s=
+
+Name: org/codehaus/commons/nullanalysis/NotNullByDefault.class
+SHA-256-Digest: 3RP06upgNA3K+Po7P+UINCgiMVw2fXG6+XrH74X4/aw=
+
+Name: org/codehaus/commons/compiler/java8/java/util/function/package-i
+ nfo.class
+SHA-256-Digest: 24j2YGIrnZujbyNadDNASLhAUslfS/NAyIxXr62P4vY=
+
+Name: org/codehaus/commons/compiler/util/Predicate.class
+SHA-256-Digest: QBhMIMOVikz9/zTz/6E6/xvjKCcmv83UNAwfAIo19t4=
+
+Name: org/codehaus/commons/compiler/util/resource/FileResource.class
+SHA-256-Digest: 5uHSDKinpa0IzSsC2bltAxwPELAJVDmTAmIxhO4T40Q=
+
+Name: org/codehaus/commons/compiler/util/iterator/DirectoryIterator.cl
+ ass
+SHA-256-Digest: 32wxvbGX76IsJ3AyisWBlVicjBoZEqWu/zk/bZ4Z/Bs=
+
+Name: org/codehaus/commons/compiler/util/resource/MapResourceCreator$1
+ .class
+SHA-256-Digest: 54LcZZdQIrSL5UIuDyUaOrDL4ydN0Qadz4seNHY9QhI=
+
+Name: org/codehaus/commons/compiler/util/iterator/DirectoryIterator$1.
+ class
+SHA-256-Digest: XpUzkZsLbwDvtKM+yvhG7C7NQrWNDDwWFlCvIvBDfU0=
+
+Name: org/codehaus/commons/compiler/io/package-info.class
+SHA-256-Digest: XUgeTVaI1q2fVV4dC2yXrYqINeZowXlfsAwhLXXoZKI=
+
+Name: org/codehaus/commons/compiler/lang/ClassLoaders.class
+SHA-256-Digest: rct7GqPk4unR9pFOTc+hkRn6LYXs5bzH/z59ZsVqqRU=
+
+Name: org/codehaus/commons/compiler/util/SystemProperties.class
+SHA-256-Digest: djTKX9KYuYXB9F40G2Jx2EcAtBeGsEQh4KFm6A8SLQ8=
+
+Name: org/codehaus/commons/compiler/util/resource/JarDirectoriesResour
+ ceFinder.class
+SHA-256-Digest: 1XhT7UrgRtzRMd2QdTtlMMoPlDuuLdogFpHimBy7+g8=
+
+Name: org/codehaus/commons/compiler/util/Numbers.class
+SHA-256-Digest: m01o4KgLZwb/MV6ecvxGelESDsUQAuVoeORI4LdJqEE=
+
+Name: org/codehaus/commons/compiler/samples/ShippingCost.class
+SHA-256-Digest: LiNzMk/rK0NemVRXE5Dg65CTnjgQsaYoAuP0f94fkP4=
+
+Name: org/codehaus/commons/compiler/util/reflect/package-info.class
+SHA-256-Digest: GFc5qKG3+8d9bvQjjDZPmRIGq9Dpabk4w+wNdT7FZRY=
+
+Name: org/codehaus/commons/compiler/util/iterator/TransformingIterator
+ .class
+SHA-256-Digest: biTZgQF4dy3f3X890Wa4pcFLWW2etnV6ELE8Jkr3Q4I=
+
+Name: org/codehaus/commons/compiler/util/iterator/MultiIterator.class
+SHA-256-Digest: jV2xYrU1Vn3xlUNG8gvElRl+yEnLJSwI4FCMP/PDnIc=
+
+Name: org/codehaus/commons/compiler/util/resource/LazyMultiResourceFin
+ der.class
+SHA-256-Digest: /UtG2BD5RORAmzpTp8zGQJSlvuV0+ZBGuH6gsNFDRUk=
+
+Name: org/codehaus/commons/compiler/util/resource/MapResourceFinder$1.
+ class
+SHA-256-Digest: 46x2Qcs9xOpDKnNLWXtw6LnpiQV2ErmEPvowZeAodD4=
+
+Name: org/codehaus/commons/compiler/lang/ClassLoaders$2.class
+SHA-256-Digest: z29Rt+tqnP8a0cZPwGb83f3XqYjZQ4rKGyht92QWzeQ=
+
+Name: org/codehaus/commons/compiler/io/Readers$4.class
+SHA-256-Digest: lq93dCHMftopvY1zGRP68uDWyKr/IcdmSZRpVz1+5/Y=
+
+Name: org/codehaus/commons/compiler/util/resource/package-info.class
+SHA-256-Digest: So/SohYI3ApHYTN6LKQFYx8XEGYTd5n8Xe+DzYAXXig=
+
+Name: org/codehaus/commons/compiler/util/resource/DirectoryResourceFin
+ der.class
+SHA-256-Digest: IIISP6j9LuyA2IEwY1HbX2vF0etkBY4Eq5xfLMXfcgg=
+
+Name: org/codehaus/commons/compiler/InternalCompilerException.class
+SHA-256-Digest: ZaN85dU5sDWlDZJOfhSGKQzVfxDwDWiaNEkugjePO/E=
+
+Name: org/codehaus/commons/compiler/util/resource/MultiResourceFinder.
+ class
+SHA-256-Digest: GQFKtpx+0CuB9+zoljifZQ0Cvx2gY/P+EI/JHbG637M=
+
+Name: org/codehaus/commons/compiler/util/reflect/Proxies$1.class
+SHA-256-Digest: DkX3C09CsbkGZ9CS9lJDQXhJIac04I7SKXmwFI2rJs4=
+
+Name: org/codehaus/commons/compiler/lang/ClassLoaders$3$1.class
+SHA-256-Digest: Joiw94RS56/ZRE3gFybpeZgtnBQFT0Zozv4TQH0r5m4=
+
+Name: org/codehaus/commons/compiler/AbstractJavaSourceClassLoader$Prot
+ ectionDomainFactory.class
+SHA-256-Digest: zR+g4+6UU61cOD1QKpiC0bLQ6UzsAmUVs8uqG2DHWjI=
+
+Name: org/codehaus/commons/compiler/samples/package-info.class
+SHA-256-Digest: TpFegjd0zcgyuM9fG7+wf1Sl3SBAgH0OTntXkLPdX+A=
+
+Name: org/codehaus/commons/compiler/util/reflect/NoException.class
+SHA-256-Digest: EEOUtQZVgufQcUDUzA+TRA02MDLK28ABKHn1AjBNJO4=
+
+Name: org/codehaus/commons/compiler/util/Benchmark$Reporter.class
+SHA-256-Digest: lj/jmnOX43C786kuFqlPeMLnMNv3wk93N+R7LEUQeZU=
+
+Name: org/codehaus/commons/compiler/util/resource/LocatableResource.cl
+ ass
+SHA-256-Digest: NkU4xSsGceZP+NMgtTYIJV4XyHVgtpof9eo+gRuBjxY=
+
+Name: org/codehaus/commons/compiler/util/iterator/Iterables$2.class
+SHA-256-Digest: nKGMy4GjY3SQ5iRomquWYqwZcE2PvT0pVtDvp4RKET8=
+
+Name: org/codehaus/commons/compiler/io/Readers$3.class
+SHA-256-Digest: b67VIpg/GfPRfUPeYqoc1JqYw7A/P3kv3GniJHQmsH8=
+
+Name: org/codehaus/commons/compiler/lang/ClassLoaders$1.class
+SHA-256-Digest: 1S6XzRR+9bO64mcKb4kpJ2TNZMKoaa//vTsGsTgmRWg=
+
+Name: org/codehaus/commons/compiler/java8/java/util/function/Consumers
+ $1.class
+SHA-256-Digest: KtWNBzPSy5e4IXiFakLgoSWiWR+KijD1z2oXlO2/PWs=
+
+Name: org/codehaus/commons/compiler/util/resource/FileResourceCreator.
+ class
+SHA-256-Digest: qZrhoXMbx6mQKW4eXqSJRkhkVDMtMHXLgf8Z1tOeEcs=
+
+Name: org/codehaus/commons/compiler/util/resource/MapResourceFinder$2.
+ class
+SHA-256-Digest: P9Ez71JwALWlGFcVnRIH4oQ4hAR9PxgMl2r2W47U5jk=
+
+Name: META-INF/maven/org.codehaus.janino/commons-compiler/pom.properti
+ es
+SHA-256-Digest: nMmwksV7H45YzObYgXP33bS8FCgeaqAfWO93H0BsqbE=
+
+Name: org/codehaus/commons/compiler/IClassBodyEvaluator.class
+SHA-256-Digest: me7O9Y5d9BKRdRFJROmU/PrWUEGbBL0Prg6xkdTO6nE=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceFinder$1.cla
+ ss
+SHA-256-Digest: +RMzcpY2qCqcu+zCEmDfyOG/bhuSOKVF22Daid+5Ois=
+
+Name: org/codehaus/commons/compiler/util/iterator/TraversingIterator.c
+ lass
+SHA-256-Digest: BP48a85ryh4f1TN2VD1VzZAagBOO+OdVD2Mydb2FPzs=
+
+Name: org/codehaus/commons/compiler/samples/ClassBodyDemo.class
+SHA-256-Digest: fgP0LKz/BYssP6tv59ZelaXLi1Iz9IWHw/ukqKqzDMI=
+
+Name: org/codehaus/commons/compiler/util/iterator/IteratorCollection$1
+ .class
+SHA-256-Digest: PjXyAOVPP82G+ZSXSgJK/BHpECDknD7R4SGF1NMoOW4=
+
+Name: org/codehaus/commons/compiler/util/iterator/MultiDimensionalIter
+ ator.class
+SHA-256-Digest: e6grmJv/dxxS2zJb2xwFeJe6zgf6OnLXM3pqo+PDBgY=
+
+Name: org/codehaus/commons/compiler/util/LineAndColumnTracker.class
+SHA-256-Digest: Njnc9npnNr/QE4cAsOqqljg96tMuJVI7k9Zce87w5c8=
+
+Name: org/codehaus/commons/compiler/util/iterator/Iterables$3.class
+SHA-256-Digest: 18pIyUtkRjJSlkDiYnTCa7nPow22oJWoqeTjEuhGKDg=
+
+Name: org/codehaus/commons/compiler/IExpressionEvaluator.class
+SHA-256-Digest: dUJlKL6ZflMchAZR64zPkFEWBIV8cYQRszB28tfUFOE=
+
+Name: org/codehaus/commons/compiler/Location.class
+SHA-256-Digest: oDrh18mtTrR404L7dCzELFhnzDXQqB2//xzgey3S9ZA=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceFinders$1.cl
+ ass
+SHA-256-Digest: RaTJyFwkK5OdlXqx+aONZmBq6RyvwO+tTQZZ3Q3KzYw=
+
+Name: org/codehaus/commons/compiler/IMultiCookable.class
+SHA-256-Digest: Er2fAVQ9gBdUgHPw1W+UPENWF5As8EIytfYawXNq2Uo=
+
+Name: org/codehaus/commons/compiler/java8/java/util/package-info.class
+SHA-256-Digest: fFVZJl03fcO1loQDdzsE83DpCpzuurzbgvcVemHTJHk=
+
+Name: org/codehaus/commons/compiler/util/Producer.class
+SHA-256-Digest: jvb44Ya4BrDZxty4fqsWe3noksi4iAFxvHtsFmjofWM=
+
+Name: org/codehaus/commons/compiler/ICompiler$2.class
+SHA-256-Digest: 4Ph1/HZX6azj4flN1fjEAwRPkkcYJAhbtFfqhlJh2H0=
+
+Name: org/codehaus/commons/compiler/package-info.class
+SHA-256-Digest: 887eVzf0DbArS+JAVXdw7M7oaKNUVo50RY8WjZh8hN0=
+
+Name: org/codehaus/commons/compiler/util/resource/ListableResourceFind
+ er.class
+SHA-256-Digest: vTesI9l+7efRN/LKdCH7DUYacEe5WE2UIYm38EKNv3s=
+
+Name: org/codehaus/commons/compiler/util/resource/PathResourceFinder$1
+ .class
+SHA-256-Digest: zzOpp/aTVBEo0HATdlemLAFZGKyGdcHnmKOA4sPcLfE=
+
+Name: org/codehaus/commons/compiler/samples/CompilerDemo.class
+SHA-256-Digest: ZsuQFnB0ctDEzbPst4JCTUoyLoFue1wekTv4daZP1ww=
+
+Name: org/codehaus/commons/compiler/io/InputStreams.class
+SHA-256-Digest: VkXB74W7MBSjy5Kyj4CspOfw8UuxLeNTjJ86PpOZH2w=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceFinders$2.cl
+ ass
+SHA-256-Digest: +XYxCEUSjErVwjbhuXNlDwpYqrNzbvhY+Alw69sANpU=
+
+Name: org/codehaus/commons/compiler/Sandbox$1.class
+SHA-256-Digest: YnsRlENRaszRv0a2mJB6w3K+tjBCGlucZ4TX6U+75C0=
+
+Name: org/codehaus/commons/compiler/util/resource/FileResourceFinder.c
+ lass
+SHA-256-Digest: lUNwSdgY461ISzd4+EqaYP+fzZg+d8mJGRqYHJW/iLA=
+
+Name: org/codehaus/commons/compiler/io/Readers$2.class
+SHA-256-Digest: Z5T8yHRvvUv2etH/ho2hGvUpr1wKRuAonkEtKGZzw5U=
+
+Name: org/codehaus/commons/compiler/AbstractCompilerFactory.class
+SHA-256-Digest: xMuC5AGMazavoPychGQ50aO8zUoomAIc5/znPaUm5T8=
+
+Name: org/codehaus/commons/compiler/util/resource/Resource.class
+SHA-256-Digest: 8wWK9rWF796+mRllHfZunNGWhqaBpnJcb85Goi8l17U=
+
+Name: org/codehaus/commons/compiler/util/reflect/ApiLog.class
+SHA-256-Digest: ECiuulF1BrWek/45P5cJirxdeKc/mi7oQ6W7ZKpXPh4=
+
+Name: org/codehaus/commons/compiler/util/Benchmark.class
+SHA-256-Digest: b7TQArZbKfXeve4DOX94xFYpzPvnxdUmAIu3EPzIQa0=
+
+Name: org/codehaus/commons/compiler/util/reflect/Classes.class
+SHA-256-Digest: H8v/kxEvNhg9yIgfngjbD5wgzMlhDCA3oxrCtrHXIek=
+
+Name: org/codehaus/commons/compiler/util/iterator/package-info.class
+SHA-256-Digest: nUfKAGwAmGnRd++1P7sgHLBTZASpPtJqy2XSfLkqO6A=
+
+Name: org/codehaus/commons/compiler/util/reflect/ByteArrayClassLoader.
+ class
+SHA-256-Digest: BYfFUDgv0Yl0taxbc4kJAXxpRqfNt1I2cS1qQz+MG5w=
+
+Name: org/codehaus/commons/compiler/lang/ClassLoaders$3.class
+SHA-256-Digest: DzdUxkeCxyYrnLyDmjYjIJIm0TA6mYHxd6G2MAEwd9U=
+
+Name: org/codehaus/commons/compiler/util/resource/MapResourceCreator.c
+ lass
+SHA-256-Digest: Y9yO0Cz1B22XLnBLsZVSaBaM1Wt8tPTFspzSCcmT5aA=
+
+Name: org/codehaus/commons/compiler/util/iterator/Iterables.class
+SHA-256-Digest: IPPkuJa+J9bCU2v3+9qJyeeH+5e4gIzWRTNv6fAFgAQ=
+
+Name: org/codehaus/commons/compiler/util/resource/MapResourceFinder.cl
+ ass
+SHA-256-Digest: qEGSlnUMeRiogwl1OT5cLlv6ym1b/OY9PLwVLnqvyVw=
+
+Name: org/codehaus/commons/compiler/java8/java/util/Optional.class
+SHA-256-Digest: W32nYlWVBYiEBja2XIsN1Iq2BnrzebjKuHTPBA7mERU=
+
+Name: org/codehaus/commons/compiler/MultiCookable.class
+SHA-256-Digest: xudXdo1b8FyXJTkmrSFoUaW4Zk8UsirjtAqwmjkELEY=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceFinders.clas
+ s
+SHA-256-Digest: 7KivxlWlA8ZmnsnqZxH/a91VbVNUAPwF2Jvd2VSrUs8=
+
+Name: org/codehaus/commons/compiler/util/iterator/FilterListIterator.c
+ lass
+SHA-256-Digest: iuxi0gtsbwHdhGcvvHXB2ZwI1i5NGS9WUv0FdVXv6T4=
+
+Name: org/codehaus/commons/compiler/util/iterator/Iterables$5.class
+SHA-256-Digest: yHNiFWlUrHPVbutQqnXwwRnn1kYicdOlSKhEmNNJ1oA=
+
+Name: org/codehaus/commons/compiler/ICompiler.class
+SHA-256-Digest: sFwewQCeWpHWlg5OIQgMv52RcFlg6IWGTudCcxaGLxQ=
+
+Name: org/codehaus/commons/compiler/samples/DemoBase.class
+SHA-256-Digest: 9d2G27vdaj7mKKv2W/9GYRm6aq3MnBZcfV2r1Jdf6Ps=
+
+Name: org/codehaus/commons/compiler/ICompilerFactory.class
+SHA-256-Digest: Bzf7xD7rSDoGcPMoLY/8mMcCqWHGzTopgBBmYq1APus=
+
+Name: org/codehaus/commons/compiler/lang/package-info.class
+SHA-256-Digest: EqKZiOPNP2EG/RQBp6yl+2j/MfigO0HE2+XeOSjb+cQ=
+
+Name: org/codehaus/commons/compiler/util/iterator/IteratorCollection.c
+ lass
+SHA-256-Digest: ZmqYcsJ4UmBEPQqa4VcnBOJDO1LM1cBpJD4KeHGqzL8=
+
+Name: org/codehaus/commons/compiler/util/resource/ZipFileResourceFinde
+ r.class
+SHA-256-Digest: sOphxLr5U2orDT8VC8hnSJ5Ap4Fs157GThHNz4oClgo=
+
+Name: org/codehaus/commons/compiler/util/iterator/ProducerIterator.cla
+ ss
+SHA-256-Digest: mQYMYj5LoFj51KVGedC7+0EeaPzYb5jdv3vUbDeyWOM=
+
+Name: org/codehaus/commons/compiler/AbstractJavaSourceClassLoader.clas
+ s
+SHA-256-Digest: lLW/oc2fgq4WH4Vz/DwodxrXPQaKzzY6T+wg2da++CA=
+
+Name: org/codehaus/commons/compiler/util/reflect/ApiLog$1.class
+SHA-256-Digest: FDvMAnEMbQtytlYZpeEXTBV4WeIAnFYlG5ocTbYvgkA=
+
+Name: org/codehaus/commons/compiler/util/Benchmark$1.class
+SHA-256-Digest: 3EOtYw0o0CkK0PJSq5NISlxRvhY5FriwOqBZZELbstE=
+
+Name: org/codehaus/commons/compiler/ErrorHandler.class
+SHA-256-Digest: bgYLFtUx61nbqZvjuGYdIXs1P/0sftEcyreBXqGfej0=
+
+Name: org/codehaus/commons/compiler/java8/java/util/stream/Stream.clas
+ s
+SHA-256-Digest: SEW5e7l++Y1k7OeDaN5S4UYt1CpzoP/8R3XKc/dB0Io=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceFinders$4.cl
+ ass
+SHA-256-Digest: xn9MLrOYtoD+hgHCVEV+lxOleurhtTudPIiG6bcsZyc=
+
+Name: org/codehaus/commons/compiler/samples/ScriptDemo.class
+SHA-256-Digest: ME9WQtVJF0fvRQ6MCPbka8TSMVEtdUaTiFZr4KAMgKg=
+
+Name: org/codehaus/commons/compiler/util/resource/ZipFileResourceFinde
+ r$1.class
+SHA-256-Digest: HdsrK6I+aKU95gI2ibJTkixBpyrc/85ZZWg9BuqtPF4=
+
+Name: org/codehaus/commons/compiler/util/resource/StringResource.class
+SHA-256-Digest: R7gaVCuO0Gr4cPPlasaX89oEwdI6rWnNVvvOaFaoEBU=
+
+Name: org/codehaus/commons/compiler/util/iterator/DirectoryIterator$1$
+ State.class
+SHA-256-Digest: 1PfdRn7xsxTFwk6wAp6BromN5UMV0kk/C5JCJkH/9R4=
+
+Name: org/codehaus/commons/compiler/util/StringPattern.class
+SHA-256-Digest: vaVmfjjPgm+AZC8aKlLo4H6fRDGUL6di8NpJtSY1JGY=
+
+Name: org/codehaus/commons/nullanalysis/NotNull.class
+SHA-256-Digest: k9YrBG/+DemF1QfxI+dDJ5P0MU7CkEDFntxYMbyV3AY=
+
+Name: org/codehaus/commons/compiler/io/Readers.class
+SHA-256-Digest: gOrWOXBDLCi7HiZni9qJwnCvcJoUn2ZpyylaUg/Pgoc=
+
+Name: org/codehaus/commons/compiler/util/resource/PathResourceFinder.c
+ lass
+SHA-256-Digest: +E9/+PT6FO1C0g0VHKToZGuWQWMUR2AdKn4uWx0h5u0=
+
+Name: org/codehaus/commons/compiler/util/resource/ResourceFinder.class
+SHA-256-Digest: 71imPx+lpjKyhaSzXh5rwCBdrIbA7TD/yDM8ubq2Wfo=
+
+Name: org/codehaus/commons/compiler/io/Readers$1.class
+SHA-256-Digest: HgQHQpqIXUDWmdIZNNuLvafPzyk7ckkyyysWO4oGbnE=
+
+Name: org/codehaus/commons/compiler/java9/java/lang/module/package-inf
+ o.class
+SHA-256-Digest: k6E2eHaJkpny9dqcVEy/WMqCsFDA65Aqgqj/enWeXuE=
+
+Name: org/codehaus/commons/compiler/util/ResourceFinderClassLoader.cla
+ ss
+SHA-256-Digest: 8Rt7OIMKwD+2aRioaMkt86XPzuto4aoho9V4h45bQcY=
+
+Name: org/codehaus/commons/compiler/util/iterator/MultiDimensionalIter
+ ator$1.class
+SHA-256-Digest: yc2nfPt5aJfyNs7SZCZX+TfzCdd7GPrKmNOcMD3GGyg=
+
+Name: org/codehaus/commons/compiler/util/resource/DirectoryResourceCre
+ ator.class
+SHA-256-Digest: KcUOrZXRD61R4MBVw7Xepk25FFaE5/1Stue8JPqYSsc=
+
+Name: org/codehaus/commons/compiler/util/LineAndColumnTracker$1.class
+SHA-256-Digest: wTxbUZ5bilMB+oCwOqGxHPWbRNighYrF4rSHsYRFZRc=
+
+Name: org/codehaus/commons/compiler/java8/java/util/function/Consumers
+ .class
+SHA-256-Digest: a1mWiNq2siu0rn25qgTcj118rCy5d1acJG7YGk396o8=
+
+Name: org/codehaus/commons/compiler/util/resource/JarDirectoriesResour
+ ceFinder$1$1.class
+SHA-256-Digest: 0JNEzu68SHOTz3VPiC1wylZXtYCt0EAikHznsbUjpwM=
+
+Name: org/codehaus/commons/compiler/ISimpleCompiler.class
+SHA-256-Digest: uOn2B3lVJsQSBUuNM3LjiixU22pRxfpqf4336eoSfTQ=
+
+Name: org/codehaus/commons/compiler/util/reflect/Proxies.class
+SHA-256-Digest: MWwtSrxAxxrFp237LgPsJg4lERgkb8zqRFylJaOLgpk=
+
+Name: org/codehaus/commons/compiler/java9/java/lang/module/ModuleReade
+ r.class
+SHA-256-Digest: Ug6Oowwq0uvLgpWvdJkygJfVxDFK1qnndO9WtLaedh8=
+
+Name: org/codehaus/commons/compiler/java8/java/util/stream/package-inf
+ o.class
+SHA-256-Digest: kTcAF1pQdiBpSVyMogGfsCR6e+PEbbGIm1XULCNvOi8=
+
+Name: org/codehaus/commons/compiler/LocatedException.class
+SHA-256-Digest: xUou2G6ynPV1lchwiEfhc+HBJXUdYKfMZk4u183+PQw=
+
+Name: org/codehaus/commons/compiler/java9/java/lang/module/ModuleFinde
+ r.class
+SHA-256-Digest: VpajRhG6elEHJbrW1mLx+xr1+jPx7w2kaw0u9fS5R0I=
+
+Name: META-INF/maven/org.codehaus.janino/commons-compiler/pom.xml
+SHA-256-Digest: J/xH4SusxeFCsu3H1EJmXgBPrDyEYrZvVlb9sIGQ83I=
+
+Name: org/codehaus/commons/compiler/java9/java/lang/module/ModuleRefer
+ ence.class
+SHA-256-Digest: HXbYQ2CarCiX0D6pyvM/HVPxmafZBvQIrjOcTU/6YkA=
+
+Name: org/codehaus/commons/compiler/util/iterator/ReverseListIterator.
+ class
+SHA-256-Digest: Fx+FnOg8G9m+8sftGoAu8YOpDvIuGmAJU55VJjFiab0=
+
+Name: org/codehaus/commons/compiler/util/package-info.class
+SHA-256-Digest: C9vc+36HM1x0VojExw9PxcqqrZrGXhBb9zvaNx/tqRM=
+
+Name: org/codehaus/commons/nullanalysis/Nullable.class
+SHA-256-Digest: Mqsw7uauFjZwHuVvN/3oU6fA3JxM+ZymUsp1MUCV8c0=
+
+Name: org/codehaus/commons/compiler/AbstractCompiler$1.class
+SHA-256-Digest: XXOg2zJer9FugzOegPOB71ziUPWGnvX+3KTu2YI9+p0=
+
+Name: org/codehaus/commons/compiler/samples/ExpressionDemo.class
+SHA-256-Digest: wveLyiG3V+1xyXlvitubZ4+pL1gqycnHdNrrvxVRgp8=
+

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-DocURL: http://asm.ow2.org
+Bundle-License: BSD-3-Clause;link=https://asm.ow2.io/LICENSE.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.objectweb.asm.tree
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.objectweb.asm.tree
+Bundle-Version: 9.2.0
+Export-Package: org.objectweb.asm.tree;version="9.2";uses:="org.object
+ web.asm"
+Implementation-Title: Tree API of ASM, a very small and fast Java byte
+ code manipulation framework
+Implementation-Version: 9.2
+Import-Package: org.objectweb.asm;version="[9.2,10)"
+Module-Requires: org.objectweb.asm;transitive=true
+

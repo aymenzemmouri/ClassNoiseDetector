@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: org.codehaus.classworlds,org.codehaus.plexus.classworl
+ ds.realm,org.codehaus.plexus.classworlds.strategy,org.codehaus.plexus
+ .classworlds,org.codehaus.plexus.classworlds.launcher
+Built-By: jvanzyl
+Tool: Bnd-1.15.0
+Bundle-Name: Plexus Classworlds
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Codehaus
+Build-Jdk: 1.7.0_21
+Bundle-Version: 2.5.2
+Bnd-LastModified: 1409332092134
+Bundle-ManifestVersion: 2
+Bundle-Description: A class loader framework
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://www.codehaus.org/
+Bundle-SymbolicName: org.codehaus.plexus.classworlds
+Main-Class: org.codehaus.plexus.classworlds.launcher.Launcher
+

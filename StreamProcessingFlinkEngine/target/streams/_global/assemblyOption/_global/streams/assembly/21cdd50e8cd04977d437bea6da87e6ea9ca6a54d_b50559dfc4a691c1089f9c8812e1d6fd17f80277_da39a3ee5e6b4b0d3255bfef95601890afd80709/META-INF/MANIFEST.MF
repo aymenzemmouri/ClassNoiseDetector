@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1560177517525
+Bundle-Description: Scalactic is an open-source library for Scala projec
+ ts.
+Bundle-DocURL: http://www.scalactic.org/
+Bundle-ManifestVersion: 2
+Bundle-Name: Scalactic
+Bundle-SymbolicName: org.scalactic
+Bundle-Vendor: Artima, Inc.
+Bundle-Version: 3.0.8
+Created-By: 1.8.0_201 (Oracle Corporation)
+Export-Package: org.scalactic;uses:="org.scalactic.source,scala,scala.co
+ llection,scala.collection.generic,scala.collection.immutable,scala.coll
+ ection.mutable,scala.collection.parallel,scala.collection.parallel.immu
+ table,scala.concurrent,scala.math,scala.reflect,scala.reflect.api,scala
+ .reflect.internal,scala.reflect.macros.whitebox,scala.runtime,scala.uti
+ l";version="3.0.8",org.scalactic.anyvals;uses:="scala,scala.collection.
+ immutable,scala.math,scala.reflect,scala.reflect.api,scala.reflect.macr
+ os.whitebox";version="3.0.8",org.scalactic.exceptions;uses:="scala,scal
+ a.collection,scala.reflect,scala.runtime";version="3.0.8",org.scalactic
+ .source;uses:="scala,scala.collection,scala.reflect,scala.reflect.api,s
+ cala.reflect.macros.whitebox,scala.runtime";version="3.0.8"
+Import-Package: scala;version="[2.12,2.13)",scala.collection;version="[2
+ .12,2.13)",scala.collection.convert;version="[2.12,2.13)",scala.collect
+ ion.generic;version="[2.12,2.13)",scala.collection.immutable;version="[
+ 2.12,2.13)",scala.collection.mutable;version="[2.12,2.13)",scala.collec
+ tion.parallel;version="[2.12,2.13)",scala.collection.parallel.immutable
+ ;version="[2.12,2.13)",scala.compat;version="[2.12,2.13)",scala.concurr
+ ent;version="[2.12,2.13)",scala.math;version="[2.12,2.13)",scala.reflec
+ t;version="[2.12,2.13)",scala.reflect.api;version="[2.12,2.13)",scala.r
+ eflect.internal;version="[2.12,2.13)",scala.reflect.internal.util;versi
+ on="[2.12,2.13)",scala.reflect.io;version="[2.12,2.13)",scala.reflect.m
+ acros;version="[2.12,2.13)",scala.reflect.macros.contexts;version="[2.1
+ 2,2.13)",scala.reflect.macros.whitebox;version="[2.12,2.13)",scala.runt
+ ime;version="[2.12,2.13)",scala.runtime.java8;version="[2.12,2.13)",sca
+ la.tools.nsc.typechecker;version="[2.12,2.13)",scala.util;version="[2.1
+ 2,2.13)",scala.util.control;version="[2.12,2.13)"
+Private-Package: org.scalactic.*
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: parser
+Implementation-Version: 1.1.2
+Specification-Vendor: org.typelevel
+Specification-Title: parser
+Implementation-Vendor-Id: org.typelevel
+Specification-Version: 1.1.2
+Implementation-URL: http://github.com/typelevel/jawn
+Implementation-Vendor: org.typelevel
+

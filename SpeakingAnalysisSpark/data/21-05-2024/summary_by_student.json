@@ -1,0 +1,42 @@
+{
+  "202000008" : {
+    "totalSpeakingDuration" : 190.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000002" : {
+    "totalSpeakingDuration" : 198.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000006" : {
+    "totalSpeakingDuration" : 186.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000007" : {
+    "totalSpeakingDuration" : 183.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000005" : {
+    "totalSpeakingDuration" : 173.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000009" : {
+    "totalSpeakingDuration" : 164.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000004" : {
+    "totalSpeakingDuration" : 171.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000001" : {
+    "totalSpeakingDuration" : 179.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000010" : {
+    "totalSpeakingDuration" : 178.0,
+    "totalSpeakingCount" : 2.0
+  },
+  "202000003" : {
+    "totalSpeakingDuration" : 188.0,
+    "totalSpeakingCount" : 2.0
+  }
+}

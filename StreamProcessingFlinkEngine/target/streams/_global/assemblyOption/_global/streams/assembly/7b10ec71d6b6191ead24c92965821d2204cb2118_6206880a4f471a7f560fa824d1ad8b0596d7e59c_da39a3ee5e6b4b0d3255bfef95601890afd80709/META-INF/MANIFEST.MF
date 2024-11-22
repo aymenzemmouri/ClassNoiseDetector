@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: flink-shaded-zookeeper-3.7
+Implementation-Version: 3.7.1-17.0
+Archiver-Version: Plexus Archiver
+Built-By: mvisser
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: flink-shaded-zookeeper-3.7
+Implementation-Vendor-Id: org.apache.flink
+Implementation-Vendor: The Apache Software Foundation
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_362
+Specification-Version: 3.7
+Implementation-URL: http://flink.apache.org/flink-shaded-zookeeper-par
+ ent/flink-shaded-zookeeper-3
+

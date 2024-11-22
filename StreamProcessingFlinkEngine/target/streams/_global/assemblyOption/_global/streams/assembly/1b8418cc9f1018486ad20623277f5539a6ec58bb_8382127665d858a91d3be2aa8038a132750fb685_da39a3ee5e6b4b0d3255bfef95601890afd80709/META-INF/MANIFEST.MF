@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jarjar-abrams-core
+Implementation-Version: 1.8.0
+Specification-Vendor: eed3si9n
+Specification-Title: jarjar-abrams-core
+Implementation-Vendor-Id: com.eed3si9n.jarjarabrams
+Specification-Version: 1.8.0
+Implementation-URL: https://github.com/eed3si9n/jarjar-abrams
+Implementation-Vendor: eed3si9n
+

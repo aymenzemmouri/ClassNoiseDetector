@@ -1,0 +1,2 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/aymen/Dev/scala_workspace/projet/data-engineering-project/StreamProcessingFlinkEngine/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/aymen/Dev/scala_workspace/projet/data-engineering-project/StreamProcessingFlinkEngine/target/scala-2.12/classes.bak[0m
